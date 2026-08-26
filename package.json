@@ -2,7 +2,7 @@
   "name": "veetcode",
   "displayName": "VeetCode: LeetCode Offline",
   "description": "LeetCode-style DSA practice that runs entirely offline. 223 problems, curated sheets (Blind 75, Striver SDE, company lists), hidden tests judged locally, and editorials that unlock only after three failed submits.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "publisher": "suyash2702",
   "license": "MIT",
   "repository": {

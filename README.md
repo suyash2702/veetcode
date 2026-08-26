@@ -60,8 +60,8 @@ and pick a problem.
 To install it properly instead:
 
 ```bash
-npm run package       # produces veetcode-0.4.0.vsix
-code --install-extension veetcode-0.4.0.vsix
+npm run package       # produces veetcode-0.5.0.vsix
+code --install-extension veetcode-0.5.0.vsix
 ```
 
 ## Using it
