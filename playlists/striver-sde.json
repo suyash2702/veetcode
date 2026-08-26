@@ -1,0 +1,328 @@
+{
+  "id": "striver-sde",
+  "name": "Striver SDE Sheet",
+  "kind": "curated",
+  "order": 2,
+  "author": "Raj Vikramaditya (take U forward)",
+  "description": "The SDE sheet's 27 coding days: arrays to graphs to DP, in the order it is meant to be done. Days 28-31 are OS/DBMS/CN/system-design theory and are not coding problems.",
+  "sections": [
+    {
+      "name": "Day 1 — Arrays",
+      "slugs": [
+        "set-matrix-zeroes",
+        "pascals-triangle",
+        "next-permutation",
+        "maximum-subarray",
+        "sort-colors",
+        "best-time-to-buy-and-sell-stock"
+      ]
+    },
+    {
+      "name": "Day 2 — Arrays II",
+      "slugs": [
+        "rotate-image",
+        "merge-intervals",
+        "merge-sorted-array",
+        "find-the-duplicate-number",
+        "missing-and-repeating-number",
+        "count-inversions"
+      ]
+    },
+    {
+      "name": "Day 3 — Arrays III",
+      "slugs": [
+        "search-a-2d-matrix",
+        "powx-n",
+        "majority-element",
+        "majority-element-ii",
+        "unique-paths",
+        "reverse-pairs"
+      ]
+    },
+    {
+      "name": "Day 4 — Arrays IV",
+      "slugs": [
+        "two-sum",
+        "4sum",
+        "longest-consecutive-sequence",
+        "longest-subarray-with-sum-zero",
+        "count-subarrays-with-given-xor",
+        "longest-substring-without-repeating-characters"
+      ]
+    },
+    {
+      "name": "Day 5 — Linked List",
+      "slugs": [
+        "reverse-linked-list",
+        "middle-of-the-linked-list",
+        "merge-two-sorted-lists",
+        "remove-nth-node-from-end-of-list",
+        "add-two-numbers",
+        "delete-node-in-a-linked-list"
+      ]
+    },
+    {
+      "name": "Day 6 — Linked List II",
+      "slugs": [
+        "intersection-of-two-linked-lists",
+        "linked-list-cycle",
+        "reverse-nodes-in-k-group",
+        "palindrome-linked-list",
+        "linked-list-cycle-ii",
+        "flatten-a-linked-list"
+      ]
+    },
+    {
+      "name": "Day 7 — Linked List and Arrays",
+      "slugs": [
+        "rotate-list",
+        "copy-list-with-random-pointer",
+        "3sum",
+        "trapping-rain-water",
+        "remove-duplicates-from-sorted-array",
+        "max-consecutive-ones"
+      ]
+    },
+    {
+      "name": "Day 8 — Greedy",
+      "slugs": [
+        "n-meetings-in-one-room",
+        "minimum-platforms",
+        "job-sequencing-problem",
+        "fractional-knapsack",
+        "minimum-coins",
+        "assign-cookies"
+      ]
+    },
+    {
+      "name": "Day 9 — Recursion",
+      "slugs": [
+        "subset-sums",
+        "subsets-ii",
+        "combination-sum",
+        "combination-sum-ii",
+        "palindrome-partitioning",
+        "permutation-sequence"
+      ]
+    },
+    {
+      "name": "Day 10 — Recursion and Backtracking",
+      "slugs": [
+        "permutations",
+        "n-queens",
+        "sudoku-solver",
+        "m-coloring-problem",
+        "rat-in-a-maze",
+        "word-break-ii"
+      ]
+    },
+    {
+      "name": "Day 11 — Binary Search",
+      "slugs": [
+        "nth-root-of-a-number",
+        "matrix-median",
+        "single-element-in-a-sorted-array",
+        "search-in-rotated-sorted-array",
+        "median-of-two-sorted-arrays",
+        "kth-element-of-two-sorted-arrays",
+        "allocate-minimum-pages",
+        "aggressive-cows"
+      ]
+    },
+    {
+      "name": "Day 12 — Heaps",
+      "slugs": [
+        "kth-largest-element-in-an-array",
+        "maximum-sum-combinations",
+        "find-median-from-data-stream",
+        "merge-k-sorted-lists",
+        "top-k-frequent-elements"
+      ]
+    },
+    {
+      "name": "Day 13 — Stack and Queue",
+      "slugs": [
+        "implement-stack-using-arrays",
+        "implement-queue-using-arrays",
+        "implement-stack-using-queues",
+        "implement-queue-using-stacks",
+        "valid-parentheses",
+        "next-greater-element-i",
+        "sort-a-stack"
+      ]
+    },
+    {
+      "name": "Day 14 — Stack and Queue II",
+      "slugs": [
+        "next-smaller-element",
+        "lru-cache",
+        "lfu-cache",
+        "largest-rectangle-in-histogram",
+        "sliding-window-maximum",
+        "min-stack",
+        "rotting-oranges",
+        "online-stock-span",
+        "maximum-of-minimum-every-window-size",
+        "the-celebrity-problem"
+      ]
+    },
+    {
+      "name": "Day 15 — Strings",
+      "slugs": [
+        "reverse-words-in-a-string",
+        "longest-palindromic-substring",
+        "roman-to-integer",
+        "string-to-integer-atoi",
+        "longest-common-prefix",
+        "rabin-karp"
+      ]
+    },
+    {
+      "name": "Day 16 — Strings II",
+      "slugs": [
+        "z-algorithm",
+        "kmp-algorithm",
+        "minimum-characters-for-palindrome",
+        "valid-anagram",
+        "count-and-say",
+        "compare-version-numbers"
+      ]
+    },
+    {
+      "name": "Day 17 — Binary Tree",
+      "slugs": [
+        "binary-tree-inorder-traversal",
+        "binary-tree-preorder-traversal",
+        "binary-tree-postorder-traversal",
+        "binary-tree-level-order-traversal",
+        "binary-tree-maximum-path-sum",
+        "diameter-of-binary-tree",
+        "balanced-binary-tree",
+        "lowest-common-ancestor-of-a-binary-tree",
+        "same-tree",
+        "binary-tree-zigzag-level-order-traversal",
+        "boundary-traversal-of-binary-tree"
+      ]
+    },
+    {
+      "name": "Day 18 — Binary Tree II",
+      "slugs": [
+        "vertical-order-traversal-of-a-binary-tree",
+        "top-view-of-binary-tree",
+        "bottom-view-of-binary-tree",
+        "binary-tree-right-side-view",
+        "symmetric-tree"
+      ]
+    },
+    {
+      "name": "Day 19 — Binary Tree III",
+      "slugs": [
+        "root-to-node-path-in-binary-tree",
+        "maximum-width-of-binary-tree",
+        "children-sum-property",
+        "all-nodes-distance-k-in-binary-tree",
+        "minimum-time-to-burn-a-tree",
+        "count-complete-tree-nodes",
+        "construct-binary-tree-from-preorder-and-inorder-traversal",
+        "construct-binary-tree-from-inorder-and-postorder-traversal",
+        "serialize-and-deserialize-binary-tree",
+        "flatten-binary-tree-to-linked-list"
+      ]
+    },
+    {
+      "name": "Day 20 — Binary Search Tree",
+      "slugs": [
+        "populating-next-right-pointers-in-each-node",
+        "search-in-a-binary-search-tree",
+        "convert-sorted-array-to-binary-search-tree",
+        "construct-bst-from-preorder-traversal",
+        "validate-binary-search-tree",
+        "lowest-common-ancestor-of-a-binary-search-tree",
+        "inorder-predecessor-and-successor"
+      ]
+    },
+    {
+      "name": "Day 21 — Binary Search Tree II",
+      "slugs": [
+        "floor-and-ceil-in-bst",
+        "kth-smallest-element-in-a-bst",
+        "two-sum-iv-input-is-a-bst",
+        "binary-search-tree-iterator",
+        "largest-bst-in-a-binary-tree",
+        "maximum-sum-bst-in-binary-tree"
+      ]
+    },
+    {
+      "name": "Day 22 — Mixed",
+      "slugs": [
+        "binary-tree-to-doubly-linked-list",
+        "kth-largest-element-in-a-stream",
+        "distinct-numbers-in-every-window",
+        "flood-fill",
+        "morris-inorder-traversal"
+      ]
+    },
+    {
+      "name": "Day 23 — Graph",
+      "slugs": [
+        "clone-graph",
+        "bfs-of-graph",
+        "dfs-of-graph",
+        "detect-cycle-in-undirected-graph",
+        "detect-cycle-in-directed-graph",
+        "topological-sort",
+        "number-of-islands",
+        "is-graph-bipartite"
+      ]
+    },
+    {
+      "name": "Day 24 — Graph II",
+      "slugs": [
+        "strongly-connected-components",
+        "dijkstras-algorithm",
+        "bellman-ford-algorithm",
+        "floyd-warshall-algorithm",
+        "minimum-spanning-tree-prims",
+        "minimum-spanning-tree-kruskals"
+      ]
+    },
+    {
+      "name": "Day 25 — Dynamic Programming",
+      "slugs": [
+        "maximum-product-subarray",
+        "longest-increasing-subsequence",
+        "longest-common-subsequence",
+        "0-1-knapsack",
+        "edit-distance",
+        "maximum-sum-increasing-subsequence",
+        "matrix-chain-multiplication"
+      ]
+    },
+    {
+      "name": "Day 26 — Dynamic Programming II",
+      "slugs": [
+        "minimum-sum-partition",
+        "count-subsets-with-given-sum",
+        "coin-change",
+        "subset-sum-equal-to-target",
+        "rod-cutting",
+        "egg-dropping",
+        "word-break",
+        "palindrome-partitioning-ii",
+        "maximum-profit-in-job-scheduling"
+      ]
+    },
+    {
+      "name": "Day 27 — Trie",
+      "slugs": [
+        "implement-trie-prefix-tree",
+        "implement-trie-ii",
+        "longest-string-with-all-prefixes",
+        "number-of-distinct-substrings",
+        "power-set",
+        "maximum-xor-of-two-numbers-in-an-array",
+        "maximum-xor-with-an-element-from-array"
+      ]
+    }
+  ]
+}

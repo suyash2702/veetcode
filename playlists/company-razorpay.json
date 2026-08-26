@@ -1,0 +1,44 @@
+{
+  "id": "company-razorpay",
+  "name": "Razorpay",
+  "kind": "company",
+  "order": 23,
+  "description": "Strings, hashing and correctness-heavy edge cases.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "valid-parentheses",
+        "valid-anagram",
+        "group-anagrams",
+        "longest-common-prefix",
+        "roman-to-integer",
+        "string-to-integer-atoi",
+        "compare-version-numbers",
+        "count-and-say",
+        "reverse-words-in-a-string",
+        "longest-palindromic-substring",
+        "palindromic-substrings",
+        "minimum-characters-for-palindrome",
+        "rabin-karp",
+        "kmp-algorithm",
+        "two-sum",
+        "longest-subarray-with-sum-zero",
+        "count-subarrays-with-given-xor",
+        "longest-consecutive-sequence",
+        "lru-cache",
+        "min-stack",
+        "implement-queue-using-stacks",
+        "implement-trie-prefix-tree",
+        "number-of-distinct-substrings",
+        "coin-change",
+        "word-break",
+        "climbing-stairs",
+        "unique-paths",
+        "binary-tree-inorder-traversal",
+        "validate-binary-search-tree",
+        "merge-intervals"
+      ]
+    }
+  ]
+}

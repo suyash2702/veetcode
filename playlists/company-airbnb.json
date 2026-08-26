@@ -1,0 +1,44 @@
+{
+  "id": "company-airbnb",
+  "name": "Airbnb",
+  "kind": "company",
+  "order": 41,
+  "description": "String parsing, intervals and design-lite questions.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "merge-intervals",
+        "insert-interval",
+        "non-overlapping-intervals",
+        "meeting-rooms",
+        "meeting-rooms-ii",
+        "encode-and-decode-strings",
+        "string-to-integer-atoi",
+        "valid-parentheses",
+        "valid-palindrome",
+        "group-anagrams",
+        "word-break",
+        "word-break-ii",
+        "palindrome-partitioning",
+        "combination-sum",
+        "subsets-ii",
+        "permutations",
+        "longest-substring-without-repeating-characters",
+        "minimum-window-substring",
+        "lru-cache",
+        "implement-trie-prefix-tree",
+        "design-add-and-search-words-data-structure",
+        "number-of-islands",
+        "clone-graph",
+        "course-schedule",
+        "alien-dictionary",
+        "top-k-frequent-elements",
+        "find-median-from-data-stream",
+        "coin-change",
+        "unique-paths",
+        "maximum-subarray"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "company-flipkart",
+  "name": "Flipkart",
+  "kind": "company",
+  "order": 20,
+  "description": "Arrays, greedy and DP — the Indian product-company staple.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "two-sum",
+        "3sum",
+        "4sum",
+        "maximum-subarray",
+        "sort-colors",
+        "next-permutation",
+        "merge-intervals",
+        "minimum-platforms",
+        "n-meetings-in-one-room",
+        "job-sequencing-problem",
+        "fractional-knapsack",
+        "trapping-rain-water",
+        "largest-rectangle-in-histogram",
+        "sliding-window-maximum",
+        "lru-cache",
+        "min-stack",
+        "number-of-islands",
+        "detect-cycle-in-undirected-graph",
+        "topological-sort",
+        "coin-change",
+        "0-1-knapsack",
+        "longest-common-subsequence",
+        "edit-distance",
+        "longest-increasing-subsequence",
+        "matrix-chain-multiplication",
+        "find-the-duplicate-number",
+        "count-inversions",
+        "search-in-rotated-sorted-array",
+        "allocate-minimum-pages",
+        "aggressive-cows",
+        "kth-largest-element-in-an-array",
+        "merge-k-sorted-lists"
+      ]
+    }
+  ]
+}

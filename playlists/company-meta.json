@@ -1,0 +1,49 @@
+{
+  "id": "company-meta",
+  "name": "Meta",
+  "kind": "company",
+  "order": 12,
+  "description": "Fast, clean implementations — Meta interviews reward the second solution.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "valid-palindrome",
+        "minimum-window-substring",
+        "merge-intervals",
+        "binary-tree-right-side-view",
+        "all-nodes-distance-k-in-binary-tree",
+        "lowest-common-ancestor-of-a-binary-tree",
+        "add-two-numbers",
+        "remove-nth-node-from-end-of-list",
+        "valid-parentheses",
+        "3sum",
+        "product-of-array-except-self",
+        "kth-largest-element-in-an-array",
+        "top-k-frequent-elements",
+        "clone-graph",
+        "number-of-islands",
+        "course-schedule",
+        "palindromic-substrings",
+        "longest-palindromic-substring",
+        "word-break",
+        "decode-ways",
+        "jump-game",
+        "copy-list-with-random-pointer",
+        "merge-k-sorted-lists",
+        "serialize-and-deserialize-binary-tree",
+        "binary-tree-maximum-path-sum",
+        "validate-binary-search-tree",
+        "kth-smallest-element-in-a-bst",
+        "string-to-integer-atoi",
+        "next-permutation",
+        "sort-colors",
+        "container-with-most-water",
+        "insert-interval",
+        "meeting-rooms-ii",
+        "find-median-from-data-stream",
+        "alien-dictionary"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "company-swiggy",
+  "name": "Swiggy",
+  "kind": "company",
+  "order": 22,
+  "description": "Scheduling, intervals and shortest paths.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "n-meetings-in-one-room",
+        "minimum-platforms",
+        "job-sequencing-problem",
+        "merge-intervals",
+        "insert-interval",
+        "non-overlapping-intervals",
+        "meeting-rooms",
+        "meeting-rooms-ii",
+        "dijkstras-algorithm",
+        "bellman-ford-algorithm",
+        "floyd-warshall-algorithm",
+        "topological-sort",
+        "detect-cycle-in-directed-graph",
+        "number-of-islands",
+        "rotting-oranges",
+        "two-sum",
+        "3sum",
+        "maximum-subarray",
+        "product-of-array-except-self",
+        "search-in-rotated-sorted-array",
+        "median-of-two-sorted-arrays",
+        "lru-cache",
+        "lfu-cache",
+        "sliding-window-maximum",
+        "longest-substring-without-repeating-characters",
+        "coin-change",
+        "0-1-knapsack",
+        "longest-increasing-subsequence",
+        "word-break",
+        "edit-distance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "company-zomato",
+  "name": "Zomato",
+  "kind": "company",
+  "order": 21,
+  "description": "Hash maps, heaps and graph traversal on delivery-shaped problems.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "two-sum",
+        "group-anagrams",
+        "valid-anagram",
+        "top-k-frequent-elements",
+        "kth-largest-element-in-an-array",
+        "find-median-from-data-stream",
+        "merge-intervals",
+        "insert-interval",
+        "meeting-rooms-ii",
+        "number-of-islands",
+        "rotting-oranges",
+        "flood-fill",
+        "clone-graph",
+        "course-schedule",
+        "dijkstras-algorithm",
+        "minimum-spanning-tree-prims",
+        "lru-cache",
+        "min-stack",
+        "valid-parentheses",
+        "longest-substring-without-repeating-characters",
+        "minimum-window-substring",
+        "maximum-subarray",
+        "best-time-to-buy-and-sell-stock",
+        "coin-change",
+        "climbing-stairs",
+        "house-robber",
+        "word-break",
+        "implement-trie-prefix-tree",
+        "binary-tree-level-order-traversal",
+        "lowest-common-ancestor-of-a-binary-tree"
+      ]
+    }
+  ]
+}

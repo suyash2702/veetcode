@@ -1,0 +1,14 @@
+.vscode/**
+src/**
+out/**/*.map
+node_modules/**
+tsconfig.json
+.gitignore
+tools/**
+*.vsix
+.vscodeignore
+package-lock.json
+
+# Solution folders the extension scaffolds while dogfooding it in this repo —
+# your own practice code, not part of the extension.
+[0-9][0-9][0-9]-*/**

@@ -1,0 +1,44 @@
+{
+  "id": "company-uber",
+  "name": "Uber",
+  "kind": "company",
+  "order": 40,
+  "description": "Graphs, geometry-free routing and cache design.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "number-of-islands",
+        "clone-graph",
+        "course-schedule",
+        "topological-sort",
+        "dijkstras-algorithm",
+        "is-graph-bipartite",
+        "detect-cycle-in-directed-graph",
+        "graph-valid-tree",
+        "number-of-connected-components-in-an-undirected-graph",
+        "flood-fill",
+        "rotting-oranges",
+        "lru-cache",
+        "lfu-cache",
+        "min-stack",
+        "merge-intervals",
+        "insert-interval",
+        "meeting-rooms-ii",
+        "non-overlapping-intervals",
+        "two-sum",
+        "3sum",
+        "group-anagrams",
+        "longest-substring-without-repeating-characters",
+        "minimum-window-substring",
+        "word-break",
+        "coin-change",
+        "jump-game",
+        "edit-distance",
+        "top-k-frequent-elements",
+        "find-median-from-data-stream",
+        "serialize-and-deserialize-binary-tree"
+      ]
+    }
+  ]
+}

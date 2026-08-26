@@ -1,0 +1,44 @@
+{
+  "id": "company-databricks",
+  "name": "Databricks",
+  "kind": "company",
+  "order": 43,
+  "description": "Systems-flavoured algorithms: streaming, partitioning and big graphs.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "find-median-from-data-stream",
+        "kth-largest-element-in-a-stream",
+        "kth-largest-element-in-an-array",
+        "top-k-frequent-elements",
+        "merge-k-sorted-lists",
+        "sliding-window-maximum",
+        "distinct-numbers-in-every-window",
+        "lru-cache",
+        "lfu-cache",
+        "implement-trie-prefix-tree",
+        "design-add-and-search-words-data-structure",
+        "serialize-and-deserialize-binary-tree",
+        "number-of-islands",
+        "clone-graph",
+        "course-schedule",
+        "topological-sort",
+        "strongly-connected-components",
+        "minimum-spanning-tree-kruskals",
+        "dijkstras-algorithm",
+        "number-of-connected-components-in-an-undirected-graph",
+        "longest-consecutive-sequence",
+        "group-anagrams",
+        "word-break",
+        "longest-substring-without-repeating-characters",
+        "minimum-window-substring",
+        "coin-change",
+        "0-1-knapsack",
+        "edit-distance",
+        "longest-common-subsequence",
+        "maximum-subarray"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "company-atlassian",
+  "name": "Atlassian",
+  "kind": "company",
+  "order": 24,
+  "description": "Design-flavoured questions plus solid tree and graph work.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "lru-cache",
+        "lfu-cache",
+        "min-stack",
+        "implement-trie-prefix-tree",
+        "implement-trie-ii",
+        "design-add-and-search-words-data-structure",
+        "find-median-from-data-stream",
+        "kth-largest-element-in-a-stream",
+        "binary-search-tree-iterator",
+        "merge-intervals",
+        "insert-interval",
+        "meeting-rooms-ii",
+        "number-of-islands",
+        "clone-graph",
+        "course-schedule",
+        "topological-sort",
+        "is-graph-bipartite",
+        "word-break",
+        "longest-substring-without-repeating-characters",
+        "minimum-window-substring",
+        "group-anagrams",
+        "top-k-frequent-elements",
+        "serialize-and-deserialize-binary-tree",
+        "binary-tree-right-side-view",
+        "vertical-order-traversal-of-a-binary-tree",
+        "lowest-common-ancestor-of-a-binary-tree",
+        "validate-binary-search-tree",
+        "coin-change",
+        "unique-paths",
+        "jump-game"
+      ]
+    }
+  ]
+}

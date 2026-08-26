@@ -1,0 +1,49 @@
+{
+  "id": "company-apple",
+  "name": "Apple",
+  "kind": "company",
+  "order": 14,
+  "description": "Broad coverage with a bias toward clean data-structure work.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "two-sum",
+        "valid-parentheses",
+        "merge-intervals",
+        "lru-cache",
+        "number-of-islands",
+        "product-of-array-except-self",
+        "maximum-subarray",
+        "longest-substring-without-repeating-characters",
+        "group-anagrams",
+        "valid-anagram",
+        "merge-two-sorted-lists",
+        "reverse-linked-list",
+        "linked-list-cycle",
+        "binary-tree-level-order-traversal",
+        "maximum-depth-of-binary-tree",
+        "same-tree",
+        "invert-binary-tree",
+        "validate-binary-search-tree",
+        "kth-largest-element-in-an-array",
+        "top-k-frequent-elements",
+        "coin-change",
+        "climbing-stairs",
+        "jump-game",
+        "unique-paths",
+        "spiral-matrix",
+        "rotate-image",
+        "trapping-rain-water",
+        "container-with-most-water",
+        "3sum",
+        "search-in-rotated-sorted-array",
+        "median-of-two-sorted-arrays",
+        "min-stack",
+        "implement-queue-using-stacks",
+        "roman-to-integer",
+        "longest-common-prefix"
+      ]
+    }
+  ]
+}

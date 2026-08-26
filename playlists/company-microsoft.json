@@ -1,0 +1,49 @@
+{
+  "id": "company-microsoft",
+  "name": "Microsoft",
+  "kind": "company",
+  "order": 13,
+  "description": "Linked lists, matrices and trees, asked plainly.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "reverse-linked-list",
+        "linked-list-cycle",
+        "merge-two-sorted-lists",
+        "add-two-numbers",
+        "valid-parentheses",
+        "min-stack",
+        "lru-cache",
+        "spiral-matrix",
+        "rotate-image",
+        "set-matrix-zeroes",
+        "search-a-2d-matrix",
+        "two-sum",
+        "3sum",
+        "maximum-subarray",
+        "best-time-to-buy-and-sell-stock",
+        "longest-palindromic-substring",
+        "valid-anagram",
+        "group-anagrams",
+        "roman-to-integer",
+        "string-to-integer-atoi",
+        "binary-tree-level-order-traversal",
+        "binary-tree-zigzag-level-order-traversal",
+        "validate-binary-search-tree",
+        "lowest-common-ancestor-of-a-binary-search-tree",
+        "invert-binary-tree",
+        "symmetric-tree",
+        "number-of-islands",
+        "course-schedule",
+        "coin-change",
+        "climbing-stairs",
+        "house-robber",
+        "unique-paths",
+        "edit-distance",
+        "word-break",
+        "implement-trie-prefix-tree"
+      ]
+    }
+  ]
+}

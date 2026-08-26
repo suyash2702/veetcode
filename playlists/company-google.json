@@ -1,0 +1,48 @@
+{
+  "id": "company-google",
+  "name": "Google",
+  "kind": "company",
+  "order": 10,
+  "description": "Graph, string and interval questions Google keeps coming back to.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "number-of-islands",
+        "word-search-ii",
+        "longest-substring-without-repeating-characters",
+        "trapping-rain-water",
+        "median-of-two-sorted-arrays",
+        "merge-intervals",
+        "insert-interval",
+        "lru-cache",
+        "minimum-window-substring",
+        "decode-ways",
+        "jump-game",
+        "course-schedule",
+        "alien-dictionary",
+        "serialize-and-deserialize-binary-tree",
+        "binary-tree-maximum-path-sum",
+        "largest-rectangle-in-histogram",
+        "sliding-window-maximum",
+        "find-median-from-data-stream",
+        "maximum-subarray",
+        "coin-change",
+        "edit-distance",
+        "unique-paths",
+        "spiral-matrix",
+        "subsets-ii",
+        "permutations",
+        "combination-sum",
+        "n-queens",
+        "valid-parentheses",
+        "longest-palindromic-substring",
+        "palindromic-substrings",
+        "top-k-frequent-elements",
+        "pacific-atlantic-water-flow",
+        "graph-valid-tree",
+        "count-and-say"
+      ]
+    }
+  ]
+}

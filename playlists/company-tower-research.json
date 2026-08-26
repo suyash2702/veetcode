@@ -1,0 +1,44 @@
+{
+  "id": "company-tower-research",
+  "name": "Tower Research",
+  "kind": "company",
+  "order": 32,
+  "description": "Low-level thinking: bit tricks, binary search, and exact math.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "sum-of-two-integers",
+        "number-of-1-bits",
+        "counting-bits",
+        "reverse-bits",
+        "missing-number",
+        "maximum-xor-of-two-numbers-in-an-array",
+        "maximum-xor-with-an-element-from-array",
+        "count-subarrays-with-given-xor",
+        "powx-n",
+        "nth-root-of-a-number",
+        "single-element-in-a-sorted-array",
+        "search-a-2d-matrix",
+        "matrix-median",
+        "median-of-two-sorted-arrays",
+        "kth-element-of-two-sorted-arrays",
+        "aggressive-cows",
+        "allocate-minimum-pages",
+        "reverse-pairs",
+        "count-inversions",
+        "find-the-duplicate-number",
+        "trapping-rain-water",
+        "largest-rectangle-in-histogram",
+        "sliding-window-maximum",
+        "maximum-subarray",
+        "longest-increasing-subsequence",
+        "0-1-knapsack",
+        "rod-cutting",
+        "egg-dropping",
+        "matrix-chain-multiplication",
+        "palindrome-partitioning-ii"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "company-stripe",
+  "name": "Stripe",
+  "kind": "company",
+  "order": 42,
+  "description": "Correctness over cleverness: parsing, money-shaped DP, and idempotent design.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "string-to-integer-atoi",
+        "compare-version-numbers",
+        "roman-to-integer",
+        "longest-common-prefix",
+        "valid-parentheses",
+        "encode-and-decode-strings",
+        "reverse-words-in-a-string",
+        "group-anagrams",
+        "valid-anagram",
+        "two-sum",
+        "longest-subarray-with-sum-zero",
+        "count-subarrays-with-given-xor",
+        "merge-intervals",
+        "insert-interval",
+        "coin-change",
+        "minimum-coins",
+        "0-1-knapsack",
+        "subset-sum-equal-to-target",
+        "count-subsets-with-given-sum",
+        "word-break",
+        "lru-cache",
+        "lfu-cache",
+        "min-stack",
+        "implement-queue-using-stacks",
+        "implement-trie-prefix-tree",
+        "top-k-frequent-elements",
+        "find-median-from-data-stream",
+        "number-of-islands",
+        "course-schedule",
+        "climbing-stairs"
+      ]
+    }
+  ]
+}

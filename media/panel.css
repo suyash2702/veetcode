@@ -1,0 +1,272 @@
+:root {
+  --veet-easy: #3fb950;
+  --veet-medium: #d29922;
+  --veet-hard: #f85149;
+  --veet-radius: 6px;
+}
+
+body {
+  font-family: var(--vscode-font-family);
+  font-size: var(--vscode-font-size);
+  color: var(--vscode-foreground);
+  background: var(--vscode-editor-background);
+  padding: 16px 20px 48px;
+  line-height: 1.55;
+}
+
+h1 {
+  font-size: 1.35rem;
+  margin: 0 0 8px;
+}
+
+h3, h4, h5 {
+  margin: 18px 0 6px;
+  font-size: 1rem;
+}
+
+p {
+  margin: 8px 0;
+}
+
+code {
+  font-family: var(--vscode-editor-font-family, monospace);
+  font-size: 0.88em;
+  background: var(--vscode-textCodeBlock-background, rgba(127, 127, 127, 0.15));
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+pre.code, pre.trace {
+  background: var(--vscode-textCodeBlock-background, rgba(127, 127, 127, 0.12));
+  border: 1px solid var(--vscode-panel-border, rgba(127, 127, 127, 0.25));
+  border-radius: var(--veet-radius);
+  padding: 10px 12px;
+  overflow-x: auto;
+  white-space: pre;
+  margin: 8px 0;
+}
+
+pre.trace {
+  white-space: pre-wrap;
+  color: var(--vscode-errorForeground);
+  font-size: 0.82rem;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+blockquote {
+  margin: 8px 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--vscode-panel-border, rgba(127, 127, 127, 0.4));
+  opacity: 0.9;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.badge {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--vscode-panel-border, rgba(127, 127, 127, 0.35));
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.difficulty-easy .badge.difficulty { color: var(--veet-easy); border-color: var(--veet-easy); }
+.difficulty-medium .badge.difficulty { color: var(--veet-medium); border-color: var(--veet-medium); }
+.difficulty-hard .badge.difficulty { color: var(--veet-hard); border-color: var(--veet-hard); }
+
+.badge.status-solved { color: var(--veet-easy); border-color: var(--veet-easy); }
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  position: sticky;
+  top: 0;
+  background: var(--vscode-editor-background);
+  padding: 8px 0;
+  z-index: 2;
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 5px 12px;
+  border-radius: var(--veet-radius);
+  border: 1px solid var(--vscode-button-border, transparent);
+  background: var(--vscode-button-secondaryBackground, rgba(127, 127, 127, 0.2));
+  color: var(--vscode-button-secondaryForeground, var(--vscode-foreground));
+  cursor: pointer;
+}
+
+button.primary {
+  background: var(--vscode-button-background);
+  color: var(--vscode-button-foreground);
+}
+
+button.ghost {
+  background: none;
+  border-color: var(--vscode-panel-border, rgba(127, 127, 127, 0.35));
+}
+
+button:hover { filter: brightness(1.12); }
+button:disabled { opacity: 0.5; cursor: default; }
+
+.example, .signature, .case {
+  border: 1px solid var(--vscode-panel-border, rgba(127, 127, 127, 0.25));
+  border-radius: var(--veet-radius);
+  padding: 10px 12px;
+  margin: 10px 0;
+}
+
+.example-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.kv {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 8px;
+  align-items: start;
+  margin: 4px 0;
+  font-size: 0.88rem;
+}
+
+.kv > span:first-child {
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  padding-top: 3px;
+}
+
+.kv code {
+  word-break: break-word;
+}
+
+.hint summary {
+  cursor: pointer;
+  padding: 6px 0;
+  opacity: 0.85;
+}
+
+.verdict {
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 10px 12px;
+  border-radius: var(--veet-radius);
+  margin: 16px 0 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.verdict.pass { color: var(--veet-easy); background: rgba(63, 185, 80, 0.12); }
+.verdict.fail { color: var(--veet-hard); background: rgba(248, 81, 73, 0.12); }
+
+.timing {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
+.case summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.case .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.case.pass .dot { background: var(--veet-easy); }
+.case.fail .dot { background: var(--veet-hard); }
+.case.fail { border-color: rgba(248, 81, 73, 0.5); }
+
+.empty {
+  opacity: 0.6;
+  font-style: italic;
+  padding: 12px 0;
+}
+
+.running {
+  opacity: 0.6;
+}
+
+.toolbar .lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  font-size: 0.85em;
+  opacity: 0.85;
+}
+
+.toolbar .lang select {
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--vscode-dropdown-border, transparent);
+  background: var(--vscode-dropdown-background, rgba(127, 127, 127, 0.2));
+  color: var(--vscode-dropdown-foreground, var(--vscode-foreground));
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Editorial — locked until the problem has been fought with. */
+.editorial {
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--vscode-panel-border);
+  padding-top: 1rem;
+}
+
+.editorial.locked {
+  opacity: 0.85;
+}
+
+.editorial h3 {
+  margin: 0 0 0.4rem;
+}
+
+.editorial summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.35rem 0;
+}
+
+.editorial-body {
+  padding: 0.4rem 0 0.2rem;
+}
+
+.editorial .muted {
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+
+footer.support {
+  margin-top: 1.6rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--vscode-panel-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.88em;
+  opacity: 0.85;
+}

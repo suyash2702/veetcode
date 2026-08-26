@@ -1,0 +1,44 @@
+{
+  "id": "company-optiver",
+  "name": "Optiver",
+  "kind": "company",
+  "order": 33,
+  "description": "Speed round: array scans, stacks and shortest-path warm-ups.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "two-sum",
+        "maximum-subarray",
+        "best-time-to-buy-and-sell-stock",
+        "container-with-most-water",
+        "trapping-rain-water",
+        "next-greater-element-i",
+        "online-stock-span",
+        "min-stack",
+        "sliding-window-maximum",
+        "largest-rectangle-in-histogram",
+        "longest-substring-without-repeating-characters",
+        "longest-consecutive-sequence",
+        "top-k-frequent-elements",
+        "kth-largest-element-in-an-array",
+        "find-median-from-data-stream",
+        "merge-intervals",
+        "insert-interval",
+        "meeting-rooms-ii",
+        "search-in-rotated-sorted-array",
+        "median-of-two-sorted-arrays",
+        "coin-change",
+        "climbing-stairs",
+        "house-robber",
+        "jump-game",
+        "unique-paths",
+        "number-of-islands",
+        "course-schedule",
+        "clone-graph",
+        "dijkstras-algorithm",
+        "valid-parentheses"
+      ]
+    }
+  ]
+}

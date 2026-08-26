@@ -1,0 +1,10 @@
+node_modules/
+out/
+*.vsix
+.DS_Store
+__pycache__/
+*.pyc
+
+# Solution folders the extension scaffolds when this repo is the workspace —
+# personal practice code, not part of the extension.
+[0-9][0-9][0-9]-*/

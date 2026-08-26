@@ -1,0 +1,44 @@
+{
+  "id": "company-citadel",
+  "name": "Citadel",
+  "kind": "company",
+  "order": 31,
+  "description": "Latency-shaped algorithms: heaps, monotonic stacks, and tight DP.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "find-median-from-data-stream",
+        "kth-largest-element-in-an-array",
+        "kth-largest-element-in-a-stream",
+        "top-k-frequent-elements",
+        "merge-k-sorted-lists",
+        "sliding-window-maximum",
+        "maximum-of-minimum-every-window-size",
+        "online-stock-span",
+        "next-greater-element-i",
+        "next-smaller-element",
+        "largest-rectangle-in-histogram",
+        "trapping-rain-water",
+        "maximum-subarray",
+        "maximum-product-subarray",
+        "longest-increasing-subsequence",
+        "maximum-sum-increasing-subsequence",
+        "maximum-profit-in-job-scheduling",
+        "job-sequencing-problem",
+        "coin-change",
+        "0-1-knapsack",
+        "count-subsets-with-given-sum",
+        "subset-sum-equal-to-target",
+        "median-of-two-sorted-arrays",
+        "search-in-rotated-sorted-array",
+        "single-element-in-a-sorted-array",
+        "nth-root-of-a-number",
+        "matrix-median",
+        "distinct-numbers-in-every-window",
+        "lru-cache",
+        "dijkstras-algorithm"
+      ]
+    }
+  ]
+}

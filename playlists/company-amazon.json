@@ -1,0 +1,49 @@
+{
+  "id": "company-amazon",
+  "name": "Amazon",
+  "kind": "company",
+  "order": 11,
+  "description": "The classic Amazon loop: data structures, BFS, and a lot of intervals.",
+  "sections": [
+    {
+      "name": "Most asked",
+      "slugs": [
+        "two-sum",
+        "lru-cache",
+        "number-of-islands",
+        "merge-intervals",
+        "trapping-rain-water",
+        "copy-list-with-random-pointer",
+        "merge-k-sorted-lists",
+        "top-k-frequent-elements",
+        "kth-largest-element-in-an-array",
+        "word-break",
+        "valid-parentheses",
+        "group-anagrams",
+        "longest-substring-without-repeating-characters",
+        "rotting-oranges",
+        "course-schedule",
+        "min-stack",
+        "reorder-list",
+        "best-time-to-buy-and-sell-stock",
+        "product-of-array-except-self",
+        "search-in-rotated-sorted-array",
+        "3sum",
+        "maximum-subarray",
+        "coin-change",
+        "unique-paths",
+        "house-robber",
+        "binary-tree-level-order-traversal",
+        "lowest-common-ancestor-of-a-binary-tree",
+        "validate-binary-search-tree",
+        "serialize-and-deserialize-binary-tree",
+        "subtree-of-another-tree",
+        "implement-trie-prefix-tree",
+        "design-add-and-search-words-data-structure",
+        "find-median-from-data-stream",
+        "sliding-window-maximum",
+        "meeting-rooms-ii"
+      ]
+    }
+  ]
+}

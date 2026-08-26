@@ -1,0 +1,96 @@
+{
+  "id": "veetcode-starter",
+  "name": "VeetCode Starter",
+  "kind": "curated",
+  "order": 0,
+  "author": "VeetCode",
+  "description": "A first pass through the core patterns, easiest first — every problem here is bundled.",
+  "sections": [
+    {
+      "name": "Arrays and Hashing",
+      "slugs": [
+        "two-sum",
+        "contains-duplicate",
+        "valid-anagram",
+        "majority-element",
+        "move-zeroes",
+        "best-time-to-buy-and-sell-stock",
+        "maximum-subarray",
+        "product-of-array-except-self",
+        "group-anagrams",
+        "top-k-frequent-elements",
+        "longest-consecutive-sequence"
+      ]
+    },
+    {
+      "name": "Two Pointers and Sliding Window",
+      "slugs": [
+        "merge-sorted-array",
+        "3sum",
+        "trapping-rain-water",
+        "longest-substring-without-repeating-characters",
+        "minimum-window-substring"
+      ]
+    },
+    {
+      "name": "Binary Search",
+      "slugs": [
+        "binary-search",
+        "search-in-rotated-sorted-array",
+        "kth-largest-element-in-an-array",
+        "median-of-two-sorted-arrays"
+      ]
+    },
+    {
+      "name": "Stack and Strings",
+      "slugs": [
+        "valid-parentheses",
+        "longest-palindromic-substring"
+      ]
+    },
+    {
+      "name": "Linked List",
+      "slugs": [
+        "reverse-linked-list",
+        "merge-two-sorted-lists",
+        "merge-k-sorted-lists"
+      ]
+    },
+    {
+      "name": "Trees",
+      "slugs": [
+        "maximum-depth-of-binary-tree",
+        "invert-binary-tree",
+        "binary-tree-level-order-traversal",
+        "validate-binary-search-tree"
+      ]
+    },
+    {
+      "name": "Graphs",
+      "slugs": [
+        "number-of-islands",
+        "course-schedule"
+      ]
+    },
+    {
+      "name": "Matrix",
+      "slugs": [
+        "spiral-matrix",
+        "rotate-image",
+        "word-search"
+      ]
+    },
+    {
+      "name": "Dynamic Programming",
+      "slugs": [
+        "climbing-stairs",
+        "house-robber",
+        "unique-paths",
+        "coin-change",
+        "word-break",
+        "longest-increasing-subsequence",
+        "edit-distance"
+      ]
+    }
+  ]
+}

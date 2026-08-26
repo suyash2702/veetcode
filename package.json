@@ -1,0 +1,374 @@
+{
+  "name": "veetcode",
+  "displayName": "VeetCode: LeetCode Offline",
+  "description": "LeetCode-style DSA practice that runs entirely offline. 223 problems, curated sheets (Blind 75, Striver SDE, company lists), hidden tests judged locally, and editorials that unlock only after three failed submits.",
+  "version": "0.4.0",
+  "publisher": "suyash2702",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suyash2702/veetcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suyash2702/veetcode/issues"
+  },
+  "homepage": "https://github.com/suyash2702/veetcode#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Education",
+    "Testing",
+    "Other"
+  ],
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "data structures",
+    "interview",
+    "practice",
+    "blind 75",
+    "striver sde sheet",
+    "dsa sheet",
+    "offline",
+    "focus",
+    "editorial"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "veetcode",
+          "title": "VeetCode",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "veetcode": [
+        {
+          "id": "veetcode.problems",
+          "name": "Problems",
+          "icon": "media/icon.svg"
+        },
+        {
+          "id": "veetcode.stats",
+          "name": "Progress",
+          "icon": "media/icon.svg"
+        },
+        {
+          "id": "veetcode.daily",
+          "name": "Daily Stats",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "veetcode.problems",
+        "contents": "Nothing matches the current filter. Even the excuses ran out.\n[Clear filters](command:veetcode.clearFilters)\n[Pick a DSA sheet](command:veetcode.selectPlaylist)"
+      }
+    ],
+    "commands": [
+      {
+        "command": "veetcode.openProblem",
+        "title": "VeetCode: Open Problem"
+      },
+      {
+        "command": "veetcode.runTests",
+        "title": "VeetCode: Run Sample Tests",
+        "icon": "$(play)"
+      },
+      {
+        "command": "veetcode.submit",
+        "title": "VeetCode: Submit (Run All Tests)",
+        "icon": "$(cloud-upload)"
+      },
+      {
+        "command": "veetcode.refresh",
+        "title": "VeetCode: Refresh Problem List",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "veetcode.selectPlaylist",
+        "title": "VeetCode: Select DSA Sheet",
+        "icon": "$(list-selection)"
+      },
+      {
+        "command": "veetcode.clearPlaylist",
+        "title": "VeetCode: Show All Problems (Clear Sheet)"
+      },
+      {
+        "command": "veetcode.randomProblem",
+        "title": "VeetCode: Pick a Random Problem",
+        "icon": "$(question)"
+      },
+      {
+        "command": "veetcode.searchProblems",
+        "title": "VeetCode: Search Problems",
+        "icon": "$(search)"
+      },
+      {
+        "command": "veetcode.filterDifficulty",
+        "title": "VeetCode: Filter by Difficulty",
+        "icon": "$(filter)"
+      },
+      {
+        "command": "veetcode.filterTag",
+        "title": "VeetCode: Filter by Topic"
+      },
+      {
+        "command": "veetcode.filterStatus",
+        "title": "VeetCode: Filter by Status"
+      },
+      {
+        "command": "veetcode.clearFilters",
+        "title": "VeetCode: Clear Filters",
+        "icon": "$(clear-all)"
+      },
+      {
+        "command": "veetcode.setGroupBy",
+        "title": "VeetCode: Group Problems By...",
+        "icon": "$(list-tree)"
+      },
+      {
+        "command": "veetcode.changeLanguage",
+        "title": "VeetCode: Change Solution Language"
+      },
+      {
+        "command": "veetcode.showDescription",
+        "title": "VeetCode: Show Description for Current File",
+        "icon": "$(book)"
+      },
+      {
+        "command": "veetcode.resetSolution",
+        "title": "VeetCode: Reset Solution to Starter Code"
+      },
+      {
+        "command": "veetcode.toggleFavorite",
+        "title": "VeetCode: Toggle Favorite",
+        "icon": "$(star)"
+      },
+      {
+        "command": "veetcode.resetProgress",
+        "title": "VeetCode: Reset All Progress"
+      },
+      {
+        "command": "veetcode.showDailyStats",
+        "title": "VeetCode: Show Today's Stats",
+        "icon": "$(graph)"
+      },
+      {
+        "command": "veetcode.showEditorial",
+        "title": "VeetCode: Show Editorial",
+        "icon": "$(book)"
+      },
+      {
+        "command": "veetcode.buyMeACoffee",
+        "title": "VeetCode: Buy the Author a Coffee",
+        "icon": "$(heart)"
+      },
+      {
+        "command": "veetcode.showStats",
+        "title": "VeetCode: Show Progress Summary"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "veetcode.selectPlaylist",
+          "when": "view == veetcode.problems",
+          "group": "navigation@0"
+        },
+        {
+          "command": "veetcode.searchProblems",
+          "when": "view == veetcode.problems",
+          "group": "navigation@1"
+        },
+        {
+          "command": "veetcode.filterDifficulty",
+          "when": "view == veetcode.problems",
+          "group": "navigation@2"
+        },
+        {
+          "command": "veetcode.setGroupBy",
+          "when": "view == veetcode.problems",
+          "group": "navigation@3"
+        },
+        {
+          "command": "veetcode.randomProblem",
+          "when": "view == veetcode.problems",
+          "group": "navigation@4"
+        },
+        {
+          "command": "veetcode.refresh",
+          "when": "view == veetcode.problems",
+          "group": "navigation@5"
+        },
+        {
+          "command": "veetcode.filterTag",
+          "when": "view == veetcode.problems",
+          "group": "1_filters@1"
+        },
+        {
+          "command": "veetcode.filterStatus",
+          "when": "view == veetcode.problems",
+          "group": "1_filters@2"
+        },
+        {
+          "command": "veetcode.clearFilters",
+          "when": "view == veetcode.problems",
+          "group": "1_filters@3"
+        },
+        {
+          "command": "veetcode.clearPlaylist",
+          "when": "view == veetcode.problems",
+          "group": "1_filters@4"
+        },
+        {
+          "command": "veetcode.changeLanguage",
+          "when": "view == veetcode.problems",
+          "group": "2_config@1"
+        },
+        {
+          "command": "veetcode.resetProgress",
+          "when": "view == veetcode.stats",
+          "group": "navigation"
+        },
+        {
+          "command": "veetcode.showDailyStats",
+          "when": "view == veetcode.daily",
+          "group": "navigation@1"
+        },
+        {
+          "command": "veetcode.buyMeACoffee",
+          "when": "view == veetcode.daily",
+          "group": "navigation@2"
+        },
+        {
+          "command": "veetcode.showEditorial",
+          "when": "view == veetcode.problems",
+          "group": "2_config@2"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "veetcode.toggleFavorite",
+          "when": "view == veetcode.problems && viewItem =~ /^problem/",
+          "group": "inline"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "veetcode.runTests",
+          "when": "veetcode.isSolutionFile",
+          "group": "navigation@1"
+        },
+        {
+          "command": "veetcode.submit",
+          "when": "veetcode.isSolutionFile",
+          "group": "navigation@2"
+        },
+        {
+          "command": "veetcode.showDescription",
+          "when": "veetcode.isSolutionFile",
+          "group": "navigation@3"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "veetcode.openProblem",
+          "when": "false"
+        },
+        {
+          "command": "veetcode.toggleFavorite",
+          "when": "false"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "veetcode.runTests",
+        "key": "ctrl+alt+r",
+        "mac": "cmd+alt+r",
+        "when": "veetcode.isSolutionFile"
+      },
+      {
+        "command": "veetcode.submit",
+        "key": "ctrl+alt+enter",
+        "mac": "cmd+alt+enter",
+        "when": "veetcode.isSolutionFile"
+      }
+    ],
+    "configuration": {
+      "title": "VeetCode",
+      "properties": {
+        "veetcode.language": {
+          "type": "string",
+          "enum": [
+            "python",
+            "javascript"
+          ],
+          "default": "python",
+          "description": "Language used when scaffolding new solution files."
+        },
+        "veetcode.workspaceFolder": {
+          "type": "string",
+          "default": "veetcode",
+          "description": "Folder (relative to the first workspace folder) where solution files are written."
+        },
+        "veetcode.pythonPath": {
+          "type": "string",
+          "default": "python3",
+          "description": "Interpreter used to run Python solutions."
+        },
+        "veetcode.nodePath": {
+          "type": "string",
+          "default": "node",
+          "description": "Runtime used to run JavaScript solutions."
+        },
+        "veetcode.testTimeoutMs": {
+          "type": "number",
+          "default": 15000,
+          "description": "Milliseconds before a test run is killed."
+        },
+        "veetcode.openDescriptionOnOpen": {
+          "type": "boolean",
+          "default": true,
+          "description": "Open the description panel beside the editor when a problem is opened."
+        },
+        "veetcode.runTestsOnSave": {
+          "type": "boolean",
+          "default": false,
+          "description": "Run sample tests automatically whenever a solution file is saved."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "problems": "python3 tools/build_problems.py",
+    "playlists": "python3 tools/build_playlists.py",
+    "verify:gen": "python3 tools/verify_gen_parity.py",
+    "verify": "python3 tools/verify.py python && python3 tools/verify.py javascript",
+    "test": "npm run compile && npm run verify:gen && node tools/smoke.js && npm run verify",
+    "package": "vsce package --allow-missing-repository",
+    "publish": "vsce publish --allow-missing-repository"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^5.4.0"
+  },
+  "icon": "media/marketplace-icon.png",
+  "galleryBanner": {
+    "color": "#1f2430",
+    "theme": "dark"
+  },
+  "qna": false
+}
