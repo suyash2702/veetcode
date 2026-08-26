@@ -356,8 +356,8 @@
     "verify:gen": "python3 tools/verify_gen_parity.py",
     "verify": "python3 tools/verify.py python && python3 tools/verify.py javascript",
     "test": "npm run compile && npm run verify:gen && node tools/smoke.js && npm run verify",
-    "package": "vsce package --allow-missing-repository",
-    "publish": "vsce publish --allow-missing-repository"
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
